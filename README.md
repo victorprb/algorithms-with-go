@@ -13,7 +13,7 @@ This repo contains code samples learned from [Algorithms with Go course](https:/
 - [x] The classic FizzBuzz problem
 - [x] Convert a decimal to any base (2-16)
 - [x] Convert a number in any base (2-16) to decimal
-- [ ] Convert a number from any base to any other base (2-16)
+- [x] Convert a number from any base to any other base (2-16)
 - [ ] Find two numbers in a list that sum to a given amount
 - [ ] Factor a number
 - [ ] Fibonacci numbers
