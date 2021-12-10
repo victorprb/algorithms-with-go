@@ -1,9 +1,5 @@
 package module01
 
-import (
-	"fmt"
-)
-
 // DecToBase will return a string representing
 // the provided decimal number in the provided base.
 // This is limited to bases 2-16 for simplicity.
@@ -13,28 +9,15 @@ import (
 //   DecToBase(14, 16) => "E"
 //   DecToBase(14, 2) => "1110"
 func DecToBase(dec, base int) string {
-	baseDecimal := fmt.Sprint(dec % base)
+	const charset = "0123456789ABCDEF"
 
-	switch baseDecimal {
-	case "10":
-		baseDecimal = "A"
-	case "11":
-		baseDecimal = "B"
-	case "12":
-		baseDecimal = "C"
-	case "13":
-		baseDecimal = "D"
-	case "14":
-		baseDecimal = "E"
-	case "15":
-		baseDecimal = "F"
-	}
+	remainder := dec % base
 
 	dec = dec / base
 
 	if dec <= 0 {
-		return baseDecimal
+		return string(charset[remainder])
 	}
 
-	return DecToBase(dec, base) + baseDecimal
+	return DecToBase(dec, base) + string(charset[remainder])
 }
