@@ -15,7 +15,7 @@ This repo contains code samples learned from [Algorithms with Go course](https:/
 - [x] Convert a number in any base (2-16) to decimal
 - [x] Convert a number from any base to any other base (2-16)
 - [x] Find two numbers in a list that sum to a given amount
-- [ ] Factor a number
+- [x] Factor a number
 - [ ] Fibonacci numbers
 - [ ] Greatest common divisor (GCD)
 - [ ] stdin and stdout
