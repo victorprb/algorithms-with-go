@@ -17,5 +17,5 @@ This repo contains code samples learned from [Algorithms with Go course](https:/
 - [x] Find two numbers in a list that sum to a given amount
 - [x] Factor a number
 - [x] Fibonacci numbers
-- [ ] Greatest common divisor (GCD)
+- [x] Greatest common divisor (GCD)
 - [ ] stdin and stdout
